@@ -1,0 +1,964 @@
+@media all and (min-width: 250px) {
+  .hat__logo {
+    visibility: hidden;
+  }
+
+  .main {
+    visibility: visible;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .main__title {
+    font-family: PT-Serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    width: 300px;
+    height: 96px;
+    margin-top: -39%;
+    margin-left: 0.2%;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .main__markerfrst {
+    width: 234px;
+    height: 33px;
+    background: #ECF3FF;
+    margin-top: -23%;
+    margin-left: 12%;
+    display: block;
+  }
+
+  .main__markerscnd {
+    width: 139px;
+    height: 32px;
+    background: #ECF3FF;
+    margin-top: 2%;
+    margin-left: 25%;
+    display: block;
+  }
+
+  .main__subtitle {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    width: 255px;
+    height: 57px;
+    text-align: center;
+    margin-left: 8%;
+    margin-top: 12%;
+    display: block;
+  }
+
+  .main__button {
+    margin-top: 8%;
+    margin-left: 16%;
+    width: 209px;
+    height: 44px;
+    background: #0056EC;
+    border-radius: 4px;
+    border-color: #0056EC;
+    display: block;
+  }
+
+  .button__text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    padding-right: 5%;
+    color: #FFF;
+  }
+
+  .main__button:hover{
+    background-color: #b7bcc9;
+    border-color: #b7bcc9;
+  }
+
+  .main__image {
+    margin-top: -179%;
+    margin-left: 3%;
+    width: 280px;
+    height: 239px;
+    display: block;
+  }
+
+  .hat__logomobile {
+    width: 36px;
+    height: 35px;
+    position: relative;
+    margin-top: 4.5%;
+    opacity: 100%;
+    left: 4.5%;
+  }
+
+  .hat__burgerim {
+    display: block;
+    visibility: visible;
+    width: 25px;
+    height: 17px;
+    margin-left: 106%;
+    margin-top: -11%;
+    border-width: 0px;
+    background-color: #FFF;
+  }
+
+  .hat {
+    font-family: Roboto;
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .footer__dots {
+    opacity: 0%;
+  }
+
+  #hat__menu {
+    width: 22px;
+    height: 22px;
+    opacity: 0;
+    position: absolute;
+    margin-top: 6.5%;
+    margin-left: 100%;
+    z-index: 2;
+  }
+
+  #hat__menu:checked ~ .main {
+    visibility: hidden;
+  }
+
+  #hat__menu:checked ~ .hat__logomobile {
+    visibility: hidden;
+  }
+
+  #hat__menu:checked ~ .main {
+    visibility: hidden;
+  }
+
+  #hat__menu:checked ~ .hat__burgerim {
+    visibility: hidden;
+  }
+
+  #hat__menu:checked ~ .hat__flex {
+    visibility: visible;
+  }
+
+  .hat__startsign {
+    margin-top: 50%;
+    margin-left: 1%;
+  }
+
+  .hat__servicessign {
+    margin-top: 11.5%;
+    margin-left: 42%;
+  }
+
+  .hat__aboutsign {
+    margin-top: 11.7%;
+    margin-left: 48%;
+  }
+
+  .hat__blogsign {
+    margin-top: 12%;
+    margin-left: 51%;
+  }
+
+  .hat__contactssign {
+    margin-top: 12.5%;
+    margin-left: 35%;
+    width: 150px;
+  }
+
+  .hat__cross {
+    display: none;
+    position: absolute;
+    margin-top: -172%;
+    margin-left: 100%;
+    width: 19.8px;
+    height: 19.8px;
+  }
+
+  #hat__menu:checked ~ .hat__cross {
+    display: block;
+    visibility: visible;
+  }
+
+  .sign:hover {
+    background-color: #CFD8DC;
+  }
+}
+
+@media all and (min-width: 374px) {
+
+  .hat__logo {
+    display: none;
+  }
+
+  .main {
+    visibility: visible;
+    flex-direction: column;
+    margin: 0% 0% 0% 0%;
+  }
+
+  .block {
+    flex-direction: row;
+    display: flex;
+    flex-direction: column;
+    margin: 0% 0% 0% 0%;
+  }
+
+  .main__title {
+    font-family: PT-Serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    width: 300px;
+    height: 96px;
+    margin-top: 80%;
+    margin-left: 5%;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+  }
+
+  .main__subtitle {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    width: 255px;
+    height: 57px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 18%;
+    margin-top: 16%;
+    display: block;
+  }
+
+  .main__button {
+    margin-top: 7%;
+    margin-left: 23.5%;
+    width: 209px;
+    height: 44px;
+    background: #0056EC;
+    border-radius: 4px;
+    border-color: #0056EC;
+    display: block;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .button__text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    padding-right: 5%;
+    color: #FFF;
+  }
+
+  .main__button:hover{
+    background-color: #b7bcc9;
+    border-color: #b7bcc9;
+  }
+
+  .main__image {
+    margin-top: 6%;
+    margin-left: 13%;
+    width: 280px;
+    height: 239px;
+    display: block;
+    background-size: cover;
+    background-image: url(img/mainimage.png);
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+  }
+
+  .hat__logomobile {
+    width: 36px;
+    height: 35px;
+    position: relative;
+    margin-top: 4.5%;
+    opacity: 100%;
+    margin-left: 1.5%;
+  }
+
+  .hat__burgerim {
+    width: 25px;
+    height: 17px;
+    margin-left: 90.5%;
+    margin-top: -7.5%;
+    border-width: 0px;
+    background-color: #FFF;
+  }
+
+  .hat__flex {
+    font-family: Roboto;
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .footer__dots {
+    opacity: 0%;
+  }
+
+  #hat__menu {
+    width: 22px;
+    height: 22px;
+    opacity: 0%;
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 87.3%;
+    z-index: 2;
+  }
+
+  span {
+    background-color: #ECF3FF;
+  }
+
+  .hat__startsign {
+    margin-top: 26%;
+    margin-left: 41%;
+  }
+
+  .hat__servicessign {
+    margin-top: 6.5%;
+    margin-left: 34%;
+  }
+
+  .hat__aboutsign {
+    margin-top: 6.7%;
+    margin-left: 38%;
+  }
+
+  .hat__blogsign {
+    margin-top: 7%;
+    margin-left: 41%;
+  }
+
+  .hat__contactssign {
+    margin-top: 7.5%;
+    margin-left: 29%;
+    width: 150px;
+  }
+
+  .hat__cross {
+    display: none;
+    position: absolute;
+    margin-top: -115%;
+    margin-left: 86%;
+    width: 19.8px;
+    height: 19.8px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  input:checked ~ nav {
+    display: flex;
+  }
+
+  #hat__menu:checked ~ .hat__cross {
+    display: block;
+    visibility: visible;
+  }
+
+  #hat__menu:checked ~ .block {
+    display: none;
+  }
+
+  #hat__menu:checked > .hat__flex {
+    display: block;
+  }
+
+  #hat__menu:checked ~ .hat__burgerim {
+    display: none;
+  }
+
+  #hat__menu:checked ~ .sign {
+    display: block;
+  }
+
+  #hat__menu:checked ~ .hat__aboutsign {
+    display: block;
+  }
+
+  #hat__menu:checked ~ .hat__servicessign {
+    display: block;
+  }
+
+  #hat__menu:checked ~ .hat__blogsign {
+    display: block;
+  }
+
+  #hat__menu:checked ~ .hat__contactssign {
+    display: block;
+  }
+
+  .sign:hover {
+    background-color: #CFD8DC;
+  }
+}
+/*
+@media all and (min-width: 600px) {
+
+  .hat__logomobile {
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-bottom: -1%;
+  }
+
+  #hat__menu {
+    opacity: 0%;
+    margin-left: 84.5%;
+    margin-top: 4.5%;
+  }
+
+  #hat__menu:checked ~ .hat__flex {
+    visibility: visible;
+  }
+
+  .hat__burgerim {
+    margin-left: 78.5%;
+    margin-top: 1%;
+    opacity: 100%;
+  }
+
+  .main__title {
+    text-align: left;
+    margin-left: 7%;
+    margin-top: -40%;
+  }
+
+  .main__subtitle {
+    text-align: left;
+    font-size: 11px;
+    line-height: 12px;
+    margin-top: 8%;
+    margin-left: 6.5%;
+  }
+
+  .main__button {
+    width: 150px;
+    height: 35px;
+    margin-top: 1%;
+    margin-left: 6%;
+  }
+
+  .button__text {
+    font-size: 10.5px;
+    margin-top: 5%;
+  }
+
+  .main__image {
+    margin-top: -80%;
+    margin-left: 93%;
+  }
+
+  .hat__cross {
+    margin-top: -57.5%;
+    margin-left: 85%;
+  }
+
+  .sign {
+    font-size: 20px;
+  }
+
+  .hat__startsign {
+    margin-top: -9%;
+    margin-left: 45%;
+    width: 45px;
+  }
+
+  .hat__servicessign {
+    margin-left: 42%;
+    width: 78px;
+  }
+
+  .hat__aboutsign {
+    margin-left: 44%;
+    width: 52px;
+  }
+
+  .hat__blogsign {
+    margin-left: 45%;
+    width: 40px;
+  }
+
+  .hat__contactssign {
+    margin-left: 40%;
+    width: 97px;
+  }
+}
+*/
+@media all and (min-width: 1000px) {
+
+  .hat__burgerim, .hat__logomobile {
+    visibility: hidden;
+  }
+
+  .hat__cross {
+    display: none;
+  }
+
+  .hat__logomobile, .hat__burger {
+    visibility: hidden;
+  }
+
+  .hat__logo, .hat__startsign, .hat__servicessign, .hat__aboutsign, .hat__blogsign, .hat__contactssign, .hat__underscore {
+    visibility: visible;
+  }
+
+  .hat__logo {
+    width: 190px;
+    height: 35px;
+    margin-left: 4.5%;
+    margin-top: -5%;
+    display: block;
+  }
+
+  .hat__flex {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hat {
+    opacity: 100%;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 16px;
+  }
+
+  .hat__startsign {
+    margin-top: -4.3%;
+    margin-left: 42.6%;
+    margin-bottom: 5%;
+    font-size: 17px;
+    display: block;
+  }
+
+  .hat__servicessign {
+    margin-top: -4.3%;
+    margin-left: 2.2%;
+    border-bottom: 2px solid #0056EC;
+    margin-bottom: 5%;
+    width: 53px;
+    font-size: 17px;
+    display: block;
+  }
+
+  .hat__aboutsign {
+    margin-top: -4.3%;
+    margin-left: 2.3%;
+    margin-bottom: 5%;
+    font-size: 17px;
+    display: block;
+  }
+
+  .hat__blogsign {
+    margin-top: -4.3%;
+    margin-left: 2.5%;
+    margin-bottom: 5%;
+    font-size: 17px;
+    display: block;
+  }
+
+  .hat__contactssign {
+    margin-top: -4.3%;
+    margin-left: 2.3%;
+    width: 100px;
+    margin-bottom: 5%;
+    font-size: 17px;
+    display: block;
+  }
+
+  .main {
+    flex-direction: column;
+    margin: 0% 0% 0% 0%;
+  }
+
+  .block {
+    flex-direction: row;
+    display: flex;
+  }
+
+  .main__title {
+    text-align: left;
+    font-family: PT-Serif;
+    font-weight: bold;
+    font-size: 50px;
+    width: 434px;
+    height: 195px;
+    line-height: 64px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 21%;
+    margin-left: 10%;
+  }
+
+  .main__subtitle {
+    text-align: left;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    width: 367px;
+    height: 43px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 9.5%;
+    margin-left: 10%;
+  }
+
+  span {
+    background-color: #ECF3FF;
+  }
+
+  .main__image {
+    width: 514px;
+    height: 439px;
+    background-size: cover;
+    background-image: url(img/mainimage.png);
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 45%;
+  }
+
+  .main__button {
+    width: 209px;
+    height: 44px;
+    background: #0056EC;
+    border-radius: 4px;
+    border-color: #0056EC;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 9%;
+    margin-left: 10.5%;
+  }
+
+  .button__text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.8px;
+    letter-spacing: 0.1px;
+    line-height: 21px;
+    padding-right: 4%;
+    color: #FFF;
+  }
+
+  .footer__dots {
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 14.5%;
+    margin-left: 49.2%;
+    opacity: 100%;
+  }
+
+  .main__button:hover{
+    background-color: #b7bcc9;
+    border-color: #b7bcc9;
+    color: #000;
+  }
+}
+
+@media all and (min-width: 1365px) {
+  .hat__logo {
+    width: 190px;
+    height: 35px;
+    margin-left: 3.3%;
+    margin-top: -5%;
+  }
+
+  .hat__flex {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hat {
+    opacity: 100%;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .hat__startsign {
+    margin-top: -4.3%;
+    margin-left: 31.2%;
+    margin-bottom: 5%;
+  }
+
+  .hat__servicessign {
+    margin-top: -4.3%;
+    margin-left: 1.7%;
+    border-bottom: 2px solid #0056EC;
+    margin-bottom: 5%;
+  }
+
+  .hat__aboutsign {
+    margin-top: -4.3%;
+    margin-left: 1.6%;
+    margin-bottom: 5%;
+  }
+
+  .hat__blogsign {
+    margin-top: -4.3%;
+    margin-left: 1.8%;
+    margin-bottom: 5%;
+  }
+
+  .hat__contactssign {
+    margin-top: -4.3%;
+    margin-left: 1.7%;
+    width: 100px;
+    margin-bottom: 5%;
+  }
+
+  .main {
+    flex-direction: column;
+    margin: 0% 0% 0% 0%;
+  }
+
+  .block {
+    flex-direction: row;
+    display: flex;
+  }
+
+  .main__title {
+    font-family: PT-Serif;
+    font-weight: bold;
+    font-size: 50px;
+    width: 434px;
+    height: 195px;
+    line-height: 64px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 17%;
+    margin-left: 50%;
+  }
+
+  .main__subtitle {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    width: 367px;
+    height: 43px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10%;
+    margin-left: 50%;
+  }
+
+  span {
+    background-color: #ECF3FF;
+  }
+
+  .main__image {
+    width: 514px;
+    height: 439px;
+    background-size: cover;
+    background-image: url(img/mainimage.png);
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 46.5%;
+  }
+
+  .main__button {
+    width: 209px;
+    height: 44px;
+    background: #0056EC;
+    border-radius: 4px;
+    border-color: #0056EC;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 9%;
+    margin-left: 50.5%;
+  }
+
+  .button__text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.8px;
+    letter-spacing: 0.1px;
+    line-height: 21px;
+    padding-right: 4%;
+    color: #FFF;
+  }
+
+  .footer__dots {
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 10.8%;
+    margin-left: 49.5%;
+  }
+
+  .main__button:hover{
+    background-color: #b7bcc9;
+    border-color: #b7bcc9;
+    color: #000;
+  }
+}
+
+@media all and (min-width: 1800px){
+
+  .hat__logo {
+    width: 190px;
+    height: 35px;
+    margin-left: 1.5%;
+    margin-top: -4.8%;
+  }
+
+  .hat__flex {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hat {
+    opacity: 100%;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 21px;
+  }
+
+  .hat__startsign {
+    margin-top: -4.5%;
+    margin-left: 50.1%;
+    margin-bottom: 5%;
+    font-size: 20px;
+  }
+
+  .hat__servicessign {
+    margin-top: -4.5%;
+    margin-left: 1.3%;
+    border-bottom: 3px solid #0056EC;
+    margin-bottom: 5%;
+    font-size: 20px;
+    width: 70px;
+  }
+
+  .hat__aboutsign {
+    margin-top: -4.5%;
+    margin-left: 1%;
+    margin-bottom: 5%;
+    font-size: 20px;
+  }
+
+  .hat__blogsign {
+    margin-top: -4.5%;
+    margin-left: 1.5%;
+    margin-bottom: 5%;
+    font-size: 20px;
+  }
+
+  .hat__contactssign {
+    margin-top: -4.5%;
+    margin-left: 1.4%;
+    width: 100px;
+    margin-bottom: 5%;
+    font-size: 20px;
+  }
+
+  .main {
+    flex-direction: column;
+    margin: 0% 0% 0% 0%;
+  }
+
+  .block {
+    flex-direction: row;
+    display: flex;
+  }
+
+  .main__title {
+    font-family: PT-Serif;
+    font-weight: bold;
+    width: 567px;
+    height: 255px;
+    font-size: 66px;
+    line-height: 87px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 26.5%;
+    margin-left: 35%;
+  }
+
+  .main__subtitle {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    width: 455px;
+    height: 52px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 7.5%;
+    margin-left: 34.5%;
+  }
+
+  span {
+    background-color: #ECF3FF;
+  }
+
+  .main__image {
+    width: 260px;
+    height: 650px;
+    background-size: cover;
+    padding-right: 514px;
+    background-image: url(img/mainimage.png);
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    margin-top: 4%;
+    margin-left: 20%;
+  }
+
+  .main__button {
+    width: 271px;
+    height: 57px;
+    background: #0056EC;
+    border-radius: 4px;
+    border-color: #0056EC;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 7.1%;
+    margin-left: 34.5%;
+  }
+
+  .button__text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.1px;
+    line-height: 21px;
+    padding-right: 4%;
+    color: #FFF;
+  }
+
+  .footer__dots {
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 7.4%;
+    margin-left: 49.6%;
+    opacity: 100%;
+  }
+
+  .main__button:hover{
+    background-color: #b7bcc9;
+    border-color: #b7bcc9;
+    color: #000;
+  }
+}
