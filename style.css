@@ -813,6 +813,194 @@
   }
 }
 
+@media all and (min-width: 790px) {
+
+  .hat__burgerim, .hat__logomobile {
+    visibility: hidden;
+  }
+
+  .hat__logo {
+    width: 133px;
+    height: 23.8px;
+    margin-left: -23.5%;
+    margin-top: -4.5%;
+    display: block;
+  }
+
+  .hat__flex {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hat {
+    opacity: 100%;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 16px;
+  }
+
+  .hat__startsign {
+    position: relative;
+    background-color: transparent;
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin-top: -14%;
+    margin-left: 40%;
+    margin-bottom: 5%;
+    font-size: 15px;
+  }
+
+  .hat__servicessign {
+    height: 25px;
+    position: relative;
+    background-color: transparent;
+    margin-top: -14%;
+    margin-left: 10%;
+    border-bottom: 2.5px solid #0056EC;
+    width: 60px;
+    font-size: 15px;
+  }
+
+  .hat__aboutsign {
+    position: relative;
+    background-color: transparent;
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin-top: -14%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    font-size: 15px;
+  }
+
+  .hat__blogsign {
+    position: relative;
+    background-color: transparent;
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin-top: -14%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    font-size: 15px;
+  }
+
+  .hat__contactssign {
+    position: relative;
+    background-color: transparent;
+    white-space: nowrap;
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin-top: -14%;
+    margin-left: 10%;
+    width: 130px;
+    margin-bottom: 5%;
+    font-size: 15px;
+  }
+
+  .main {
+    flex-direction: column;
+    margin: 0% 0% 0% 0%;
+  }
+
+  .block {
+    flex-direction: row;
+    display: flex;
+  }
+
+  .main__title {
+    font-family: PT-Serif;
+    font-weight: bold;
+    font-size: 40px;
+    width: 434px;
+    height: 195px;
+    line-height: 50px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 76%;
+    margin-left: 37%;
+  }
+
+  .main__subtitle {
+    text-align: center;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 21px;
+    width: 367px;
+    height: 43px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 0%;
+    margin-left: 45%;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+  }
+
+  span {
+    background-color: #ECF3FF;
+  }
+
+  .main__image {
+    width: 359px;
+    height: 307px;
+    background-size: cover;
+    background-image: url(img/mainimage.png);
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 25%;
+  }
+
+  .main__button {
+    width: 250px;
+    height: 53px;
+    background: #0056EC;
+    border-radius: 4px;
+    border-color: #0056EC;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 9%;
+    margin-left: 59%;
+  }
+
+  .button__text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.1px;
+    line-height: 21px;
+    padding-right: 4%;
+    color: #FFF;
+  }
+
+  .footer__dots {
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 2%;
+    margin-left: 48%;
+    opacity: 100%;
+  }
+
+  .main__button:hover{
+    background-color: #b7bcc9;
+    border-color: #b7bcc9;
+    color: #000;
+  }
+}
+
 @media all and (min-width: 1000px) {
 
   .hat__burgerim, .hat__logomobile {
